@@ -85,6 +85,19 @@
 
 ---
 
+### 3.1 Detalhes sobre quando NAO se deve usar os algoritmos
+
+| Algoritmo        | Quando NÃO usar?                                      |
+| ---------------- | ----------------------------------------------------- |
+| **DFS/BFS**      | grafos ponderados (não garante caminho mínimo)        |
+| **Dijkstra**     | pesos negativos (não garante menor caminho)           |
+| **Bellman-Ford** | se não há pesos negativos (Dijkstra é mais eficiente) |
+| **Kruskal**      | se o grafo é direcionado (só funciona em não direcionados) |
+| **Prim**         | se o grafo é desconexo (só funciona em conexos)       |
+| **HeapSort**     | se precisa de estabilidade (troca não preserva ordem) |
+
+---
+
 ## 4. Exercícios Estilo‑Prova
 
 ### 4.1 Complexidade de Código
