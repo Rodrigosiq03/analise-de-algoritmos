@@ -198,9 +198,3 @@ for (int i=1; i < vetor.length; i++) { ... }     // O(n)
 
 ---
 
-### Último conselho ⏰
-
-Treine fazer 10 exercícios cronometrando 1 min por função/código. Seu olho vai ficar automático.
-
-Boa prova! 💪
-
